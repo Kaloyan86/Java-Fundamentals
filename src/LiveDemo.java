@@ -21,13 +21,14 @@ public class LiveDemo {
 //                .split("\\s+"))
 //                .mapToInt(Integer::parseInt)
 //                .toArray();
-        double[] numbers = Arrays.stream(scanner.nextLine()
-                .split("\\s+"))
-                .mapToDouble(Double::parseDouble)
-                .toArray();
+//        double[] numbers = Arrays.stream(scanner.nextLine()
+//                .split("\\s+"))
+//                .mapToDouble(Double::parseDouble)
+//                .toArray();
         // char[] symbols = scanner.nextLine().toCharArray();
 
-
+        double s = 5.5;
+        System.out.printf("%s", s);
         System.out.println();
     }
 }
