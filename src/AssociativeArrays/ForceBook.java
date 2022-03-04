@@ -18,6 +18,10 @@ public class ForceBook {
                 users.putIfAbsent(side, new ArrayList<>());
                 boolean noneMatch = users.entrySet()
                         .stream()
+                        /*
+                         Returns whether no elements of this stream match the provided predicate(boolean condition).
+                         If the stream is empty then true is returned.
+                         */
                         .noneMatch(entry -> entry.getValue().contains(username));
 
                 if (noneMatch) {
